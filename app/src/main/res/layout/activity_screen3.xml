@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScreenApp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android App development"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        app:columnCount="2"
+        app:orientation="vertical"
+        app:rowCount="2">
+
+        <Button
+            android:id="@+id/buttonA1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="java" />
+
+        <Button
+            android:id="@+id/buttonA2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="kotlin" />
+
+        <Button
+            android:id="@+id/buttonA3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="flutter" />
+
+        <Button
+            android:id="@+id/buttonA4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="firebase" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/buttonA5"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full resource"
+        android:background="@drawable/circular_button"/>
+</LinearLayout>

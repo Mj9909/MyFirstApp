@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ScreenDevOps">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/devops_engineering"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:columnCount="2"
+
+        app:rowCount="2">
+
+        <Button
+            android:id="@+id/buttonD1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="@string/version_control_system_git" />
+
+        <Button
+            android:id="@+id/buttonD2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="@string/continuous_integration_and_continuous_delivery_jenkins" />
+
+        <Button
+            android:id="@+id/buttonD3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="Configuration Management Tools/puppets"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonD4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="Containerization Technologies /docker"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/buttonD5"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="Cloud Platforms and Services /aws" />
+
+        <Button
+            android:id="@+id/buttonD6"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="Containerization Technologies /kubernetes"
+            tools:ignore="HardcodedText" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/buttonD7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/circular_button"
+        android:text="Full resource" />
+
+</LinearLayout>

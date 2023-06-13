@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScreenAI">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="artificial intelligence"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        app:columnCount="2"
+        app:orientation="vertical"
+        app:rowCount="2">
+
+        <Button
+            android:id="@+id/buttonAI1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="python" />
+
+        <Button
+            android:id="@+id/buttonAI2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="machine larning" />
+
+        <Button
+            android:id="@+id/buttonAI3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="tensorflow" />
+
+        <Button
+            android:id="@+id/buttonAI4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/circular_button"
+            android:text="keras" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/buttonAI5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/circular_button"
+        android:text="Full resource" />
+
+</LinearLayout>

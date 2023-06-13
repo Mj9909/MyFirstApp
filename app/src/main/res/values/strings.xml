@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="web_app_development">web App development</string>
+    <string name="version_control_system_git">version control system/git</string>
+    <string name="continuous_integration_and_continuous_delivery_jenkins">Continuous Integration and Continuous Delivery /jenkins</string>
+    <string name="devops_engineering">devops engineering</string>
+</resources>
